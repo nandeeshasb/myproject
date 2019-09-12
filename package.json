@@ -1,0 +1,20 @@
+{
+    "name": "myproject",
+    "version": "1.0.0",
+    "description": "New projects IRISTechademy",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "techademy",
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "glyphicons-only-bootstrap": "^1.0.1",
+        "jquery": "^3.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "gulp": "^4.0.2"
+    }
+}

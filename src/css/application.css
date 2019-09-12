@@ -1,0 +1,105 @@
+
+ul,li {
+	list-style-type: none;
+}
+a, a:hover, a:active, a:focus, a:visited {
+  text-decoration: none; 
+  color: #fff;
+}
+a:hover {
+	color:#fff;
+}
+
+
+.logo {
+	background-image: url("../img/techademy.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: transparent;
+	margin: 20px auto;
+	height: 40px;
+	width: 160px;
+	display: inline-block;
+	left: 10px;
+}
+.hamburger {
+	color: #fff;
+	font-size: 25px;
+	float: right;
+	padding: 20px 10px;
+}
+.main {
+	display: none;
+}
+.main-navbar {
+	background-color: #000000;
+	padding-left: 20px;
+}
+
+.banner {
+	background-image: url("../img/index-banner.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 100%;
+	color: transparent;
+}
+.content-banner {
+	margin-top: -364px;
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+
+}
+
+.progress1 {
+	box-shadow: 2px 3px #fffee0;
+}
+.card-hide {
+	margin-top: 200px;
+	font-weight: bold;
+}
+
+
+@media screen and (min-device-width: 768px){
+	.content-banner {
+		margin-top: -250px;
+		text-align: justify;
+		color: #000;
+		font-weight: bold;
+		padding: 0 20px;
+	}
+	.card-hide,.about-my {
+		display: none;
+	}
+
+}
+@media screen and (min-device-width: 1024px) {
+	.hamburger {
+		display: none;
+	}
+	.main {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		padding-right: 10px;
+		margin-top: -60px;
+		font-size: 20px;
+		padding-bottom: 20px;
+	}
+	.main li {
+		padding: 0 20px;
+	}
+	.main a {
+		color: #fff;
+	}
+	.content-banner {
+		margin-top: -10px;
+		text-align: justify;
+		color: #000;
+		font-weight: bold;
+	}
+	.card-hide {
+		display: none;
+	}
+}
