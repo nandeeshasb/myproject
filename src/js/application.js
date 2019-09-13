@@ -1,8 +1,8 @@
 $(document).ready(fuction(){
 
-	$(".hamburger ul li").click(fn1);
+	$("button").click(fn1);
 
 	fuction fn1(){
-		$(".main").Toggle();
+		$(".main-ul").Toggle();
 	}
 });
