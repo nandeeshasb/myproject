@@ -7,7 +7,7 @@ a, a:hover, a:active, a:focus, a:visited {
   color: #fff;
 }
 a:hover {
-	color:#fff;
+	color:blue;
 }
 * {
 	padding: 0;
@@ -47,6 +47,9 @@ a:hover {
 	justify-content:space-between; 
 	flex-direction: row;
 	padding: 0 10px;
+	font-size: 25px;
+	font-weight: bold;
+	cursor: pointer;
 }
 .banner-image {
 	background-image: url("../img/learn-lang.jpg");
@@ -84,6 +87,44 @@ a:hover {
 	background-color: #f7f7fb;
 	padding-top: 50px;
 }
+.content-projects {
+	background-color: #eeeeee;
+	padding-top: 50px;
+}
+.content-ul {
+	display: flex;
+	/*justify-content: space-between;*/
+}
+
+.content-ul a{
+	color: #000;
+	font-size: 11px;
+	padding: 0 3px;	
+	font-weight: bold;
+	text-align: center;
+}
+.card-img {
+	height: 300px;
+}
+.card-img-overlay {
+	margin-top:200px;
+}
+@media screen and (min-device-width: 768px) {
+	.content-ul {
+		display: flex;
+		flex-direction: row;
+	
+		
+	}
+
+	.content-ul a{
+		color: #000;
+		margin-left: 37px;
+		font-size: 20px;
+		padding: 0 3px;	
+		font-weight: bold;
+	}	
+}
 @media screen and (min-device-width: 1024px) {
 	.main-ul {
 		display: flex;
@@ -100,5 +141,12 @@ a:hover {
 	}
 	.hamburger {
 		display: none;
+	}
+	.content-ul a{
+		color: #000;
+		margin-left: 90px;
+		font-size: 20px;
+		padding: 0 0px;	
+		font-weight: bold;
 	}
 }

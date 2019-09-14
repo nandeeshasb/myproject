@@ -1,8 +1,10 @@
-$(document).ready(fuction(){
 
-	$("button").click(fn1);
 
-	fuction fn1(){
-		$(".main-ul").Toggle();
+$(document).ready(function(){
+	$('.hamburger').click(something);
+	function something(){
+		/*alert('aklsdjflkasdjf');*/
+		$('.main-ul').toggle();
+
 	}
 });
