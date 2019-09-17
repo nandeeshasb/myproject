@@ -12,6 +12,15 @@ a:hover {
 * {
 	padding: 0;
 	margin: 0;
+	font-family: sans-serif,serif;
+}
+body {
+	line-height: 26px;
+    font-size: 16px;
+   font-family: roboto, sans-serif;
+    font-weight: 400;
+    /*color: rgb(119, 119, 119);*/
+
 }
 .main-navbar {
 	background-color: #C0C0C0;
@@ -91,6 +100,7 @@ a:hover {
 	background-color: #eeeeee;
 	padding-top: 50px;
 }
+
 .content-ul {
 	display: flex;
 	/*justify-content: space-between;*/
@@ -125,6 +135,34 @@ a:hover {
 }
 
 /* sliders of pages  */
+
+.card-blog {
+	border:none;
+
+}
+.card-blog img {
+	border-radius: 5px;
+}
+.dolio-footer {
+	background-color: #000410;
+	padding: 50px 0;
+	margin-top: 50px;
+
+}
+.dolio-footer h4 {
+	color: #fff;
+	font-weight: bolder;
+}
+.dolio-footer p {
+	color: grey;
+}
+.icon-span span {
+	padding: 0 10px;
+}
+
+
+
+
 
 @media screen and (min-device-width: 768px) {
 	.content-ul {
